@@ -11,7 +11,7 @@ The `EPA Emissions data` notebook downloads all of files. It also logs the filen
 
 After the individual files are downloaded, the data are grouped to a monthly level and exported as a single file in the 'Group EPA emissions data by month` notebook.
 
-###EIA data
+### EIA data
 We use generation and fuel consumption data (EIA-923) reported in EIA's bulk download. Because not all facilities report to 923 on a monthly basis, we also use the national-level generation and consumption totals calculated for the Electric Power Monthly. These two sets of data are extracted from the `ELEC.txt` bulk download file in the `EIA Bulk Download - extract facility generation` and `EIA bulk download - non-facility (distributed PV & state-level)` notebooks.
 
 Finally, we use published EIA combustion emission factors (suplemented with data from EPA and IPCC), found in the `Emission factors` notebook.
