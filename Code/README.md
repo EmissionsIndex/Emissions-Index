@@ -5,7 +5,7 @@ The Python code for all calculations is provided here in the form of [Jupyter no
 ---
 ## How the notebooks are structured
 
-The Emissions Index combines data from EIA and EPA. These notebooks provide code to download, clean, and combine that data.
+The Emissions Index combines data from EIA (EIA-923 and Electric Power Monthly) and EPA CEMS. These notebooks provide code to download, clean, and combine that data.
 
 ### EPA data
 
